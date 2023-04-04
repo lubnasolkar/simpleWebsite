@@ -1,0 +1,80 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+} 
+.img1{
+    background-image: url(image1.png);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(image2.png);
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.img3{
+    background-image: url(image3.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.txt{
+    position: absolute;
+    top: 50%;
+   width: 100%;
+   text-align: center;
+   color: black;
+   font-size: 27px;
+   text-transform: uppercase;
+}
+.spn1{
+    background: #313534;
+    color: white;
+    padding: 20px;
+}
+.txt2{
+    position: absolute;
+    padding-top: 180px;
+    text-align: center;
+    width: 100%;
+}
+.spn2{
+    color: white;
+    background: #313534;
+    padding: 20px;
+    font-size: 27px;
+}
+.txt3{
+    position: absolute;
+    width: 100%;
+    padding-top: 180px;
+    text-align: center;
+}
+.spn3{
+    color: white; 
+    font-size: 27px;
+    background: #313534;
+    padding: 20px;
+}
+.p1 , .p2 , .p3{
+    color: black;
+    padding: 10px 40px;
+    background: #666;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
